@@ -123,13 +123,13 @@ footer {
 }
 
 .carousel img {
-    width: 100%;
+    width: 90%;
     height: auto;
     border-radius: 10px;
 }
 
 .slick-dots li button:before {
-    font-size: 16px; /* Increased dot size */
+    font-size: 20px; /* Increased dot size */
 }
 
 
