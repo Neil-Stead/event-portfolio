@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Portfolio | Neil Stead</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -46,25 +46,26 @@
     <section id="portfolio">
         <h2>Event Portfolio</h2>
 
-        <!-- Event 1 -->
-        <article id="event-2019">
-            <h3>New Directions East Asia 2019</h3>
-            <p><strong>Location:</strong> Yokohama Pacifico, Japan</p>
-            <p><strong>Audience:</strong> 400+ attendees, including industry leaders and educators</p>
-            <p><strong>Your Role:</strong>In my first role for the British Council, I was hired as a local hire to project manage the conference. Based in Japan, I was the first project manager to take the role of project managing this turnkey conference who was non a native speaker and native of the host country.</p>
+<!-- Event 1 -->
+<article id="event-2019">
+    <h3>New Directions East Asia 2019</h3>
+    <p><strong>Location:</strong> Yokohama Pacifico, Japan</p>
+    <p><strong>Audience:</strong> 400+ attendees, including industry leaders and educators</p>
+    <p><strong>Your Role:</strong> Local Project Manager</p>
 
-            <h4>Key Achievements:</h4>
-            <ul>
-                <li>Improved budget efficiency, optimizing expenditures to enhance event quality without exceeding financial constraints.</li>
-                <li>Engaged sponsors, fostering partnerships that elevated the conference’s value and visibility.</li>
-                <li>Realigned event structure to better cater to regional stakeholders, resulting in increased engagement and positive feedback.</li>
-            </ul>
+    <h4>Key Achievements:</h4>
+    <ul>
+        <li>Improved budget efficiency, optimizing expenditures to enhance event quality without exceeding financial constraints.</li>
+        <li>Engaged sponsors, fostering partnerships that elevated the conference’s value and visibility.</li>
+        <li>Realigned event structure to better cater to regional stakeholders, resulting in increased engagement and positive feedback.</li>
+    </ul>
 
-            <h4>Delegate Feedback:</h4>
-            <blockquote>
-                “The event exceeded expectations, offering valuable insights and networking opportunities.”
-            </blockquote>
-
+    <h4>Delegate Feedback:</h4>
+    <blockquote>
+        “The event exceeded expectations, offering valuable insights and networking opportunities.”
+    </blockquote>
+  
+  
             <div class="carousel">
                 <img src="https://jeannecooney.com/wp-content/uploads/2022/01/Events.jpg" alt="Event Image 1">
                 <img src="https://jeannecooney.com/wp-content/uploads/2022/01/Events.jpg" alt="Event Image 2">
@@ -72,13 +73,20 @@
                 <img src="https://jeannecooney.com/wp-content/uploads/2022/01/Events.jpg" alt="Event Image 4">
                 <img src="https://jeannecooney.com/wp-content/uploads/2022/01/Events.jpg" alt="Event Image 5">
             </div>
-            <div class="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-            title="Embedded Video" frameborder="0" allowfullscreen></iframe>
-</div>
-            
-            
-        </article>
+
+    <!-- Trigger Link -->
+    <a href="#videoModal" class="video-link">Watch Video Highlights of the Event</a>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe src="https://www.youtube.com/embed/-UdSE5p4C2A?si=a2B8hVQ3XHr3UbOQ" 
+                    title="Event 2019 Highlights" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</article>
+
 
         <!-- Event 2 -->
         <article id="event-2021">
