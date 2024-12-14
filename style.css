@@ -132,6 +132,7 @@ footer {
     font-size: 16px; /* Increased dot size */
 }
 
+
 /* Modal Styles */
 .modal {
     display: none; /* Hidden by default */
@@ -173,3 +174,4 @@ footer {
 .close:hover {
     color: #ff0000;
 }
+
