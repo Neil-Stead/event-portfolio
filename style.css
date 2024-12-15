@@ -125,7 +125,7 @@ footer {
 
 
 .slick-dots li button:before {
-    font-size: 20px; /* Increase the size of the dots */
+    font-size: 50px; /* Increase the size of the dots */
     opacity: 0.75; /* Adjust the opacity for better visibility */
     transition: opacity 0.3s ease;
 }
